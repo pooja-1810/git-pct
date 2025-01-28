@@ -8,7 +8,7 @@ if [ $1 -ne 0 ]
     then
         echo "$2 is not successful"
         exit 1
-    else 
+    else g
         echo "$2  is success"
     fi
 }
@@ -32,7 +32,7 @@ else
     echo "git is already installed,"
 fi
 
-dnf list installed mysql 
+dnf list installed mysqlss
 
 if [ $? -ne 0 ]
 then
