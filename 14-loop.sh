@@ -25,6 +25,8 @@ if [ $1 -ne 0 ]
     fi
 }
 
+CHECK_ROOT
+
 for package in $@ # $@ refers to all arguments passed to it
 do
     dnf list installed $package
