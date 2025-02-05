@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIR=/c/devops/daws-81s/logs
+SOURCE_DIR=//home/ec2-user/logs
 
 if [ -d $SOURCE_DIR ]
 then 
