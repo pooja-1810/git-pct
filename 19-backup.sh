@@ -2,7 +2,7 @@
 
 SOURCE_DIR=$1
 DEST_DIR=${2}
-DAYS={3:-14} # if $3 is empty, default is 14 days
+DAYS=${3:-14} # if $3 is empty, default is 14 days
 
 TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
 
